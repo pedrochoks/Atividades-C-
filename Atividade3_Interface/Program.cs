@@ -4,6 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        IAnimal c = new Cachorro();
+        IAnimal g = new Gato();
+
+        c.EmitirSom();
+        g.EmitirSom();
     }
 }
